@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { ThemeProvider } from "@/components/theme-provider"
-import { ThemeLanguageSwitcher } from "@/components/theme-language-switcher"
 
 export const metadata: Metadata = {
   title: 'v0 App',
@@ -23,7 +22,6 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <ThemeLanguageSwitcher />
           {children}
         </ThemeProvider>
       </body>
