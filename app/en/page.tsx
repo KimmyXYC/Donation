@@ -3,8 +3,8 @@ import type { Metadata } from "next"
 import { translations } from "@/lib/i18n"
 
 export const metadata: Metadata = {
-  title: translations.zh.title,
-  description: translations.zh.description,
+  title: translations.en.title,
+  description: translations.en.description,
 }
 
 export default function Home() {
@@ -13,5 +13,4 @@ export default function Home() {
       <DonationPage />
     </main>
   )
-}
-
+} 
