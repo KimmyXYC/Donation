@@ -11,7 +11,7 @@ export default function DonationPage() {
 
   const cryptoAddresses = {
     erc20: "0xF0640f6F0181fE5B898B0CB6c0177bFb2AE85460",
-    trc20: "TQ35ZmRH3ti6CH4eFPihQ8h7qu9XKFwePb",
+    trc20: "TGXTnv3XVpWYE8F9Jw7XugWnXPy5no6W6p",
   }
 
   const copyToClipboard = (type: string, address: string) => {
